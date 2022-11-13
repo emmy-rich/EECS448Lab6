@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Extremely Useful Store</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="formChecker.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to the Extremely Useful Store!</h1>
+    <h2>Items Currently Available</h2>
+    <table>
+        <tr>
+         <td>
+            <figure>
+                <img src="pinkPineapple.jpg" width="300" height="200"/>
+                <figcaption>Pink Pineapple: $11</figcaption>
+            </figure>
+        </td>
+         <td>
+            <figure>
+                <img src="charger.jpg" width="350" height="200"/>
+                <figcaption>Broken iPhone Charger: $80</figcaption>
+            </figure>
+        </td>
+         <td>
+            <figure>
+                <img src="truck.jpg" width="300" height="200"/>
+                <figcaption>Toy Truck: $33</figcaption>
+            </figure>
+        </td>
+        </tr>
+    
+    <table>
+    <h3>Order Form</h3>
+    <form
+      action="customerBackend.php"
+      method="POST"
+      onsubmit="return checker()"
+    >
+      <div class="textPart">
+        Username (in the form name@domain.com):
+        <input type="text" id="username" name="username" /> <br />
+        Password:
+        <input type="password" id="password" name="password" /> <br />
+        Number of Pink Pineapples:
+        <input type="number" id="pinkPineapples" name="pinkPineapples" /><br />
+        Number of Broken iPhone Chargers:
+        <input type="number" id="chargers" name="chargers" /><br />
+        Number of Toy Trucks:
+        <input type="number" id="trucks" name="trucks" /><br />
+      </div>
+      <h3>Shipping Options:</h3>
+      <div class="shippingForm">
+        <input type="radio" name="shipping" value="sevenDay" />Free 7 day <br />
+        <input type="radio" name="shipping" value="threeDay" />$5.00 3 day
+        <br />
+        <input type="radio" name="shipping" value="overNight" />$50.00 overnight
+        <br />
+      </div>
+      <br />
+      <input type="reset" value="Reset Form" />
+      <input type="submit" value="Submit Order" />
+    </form>
+  </div>
+</html>
