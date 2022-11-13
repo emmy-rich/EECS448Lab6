@@ -1,0 +1,60 @@
+td {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: royalblue;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+.textPart {
+  font-weight: bold;
+}
+
+.shippingForm {
+  font-weight: bold;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.backend td {
+  background-color: mediumpurple;
+}
+
+table.backend th {
+  background-color: honeydew;
+}
+
+h2.center {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
