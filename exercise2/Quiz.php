@@ -152,6 +152,6 @@
                 echo("You got a ".$percent."%"."<br>");
             ?>
         </h3>
-        <button id="quiz" onclick="location.href = 'https://people.eecs.ku.edu/~e772r813/Quiz.html'">Retry</button>
+        <button id="quiz" onclick="location.href = 'https://people.eecs.ku.edu/~e772r813/lab6/exercise2/Quiz.html'">Retry</button>
   </body>
 </html>
